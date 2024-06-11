@@ -1,7 +1,7 @@
 const { getNotesController, postNoteController, deleteNoteController, updateNoteController, getNoteByIdController } = require("../controllers/noteControllers")
 
 
-//same handler - different controllers: for "/" -> pokemons and query name
+
 const getNotesHandler = async (req, res) => {
     try {
         const notesDB = await getNotesController();
@@ -76,5 +76,4 @@ module.exports = {
     postNoteHandler,
     deleteNoteHandler,
     updateNoteHandler,
-
 }

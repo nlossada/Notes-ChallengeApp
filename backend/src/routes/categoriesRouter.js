@@ -1,19 +1,19 @@
 const { Router } = require("express");
-// const { getPokeHandler, getPokeByIdHandler, postPokemons, deletePokemonHandler, updatePokeHandler } = require("../handlers/pokemonsHandlers")
+const { getCategoryHandler, postCategoryHandler, deleteCategoryHandler } = require("../handlers/categoryHandlers")
 
 const categoriesRouter = Router();
 
 
 //main route of categories
-// categoriesRouter.get("/", getPokeHandler);
+categoriesRouter.get("/", getCategoryHandler);
 
-// categoriesRouter.get("/:idPokemon", getPokeByIdHandler);
+// categoriesRouter.get("/:idCategory", getCategoryByIdHandler);
 
-// categoriesRouter.post("/", postPokemons);
+categoriesRouter.post("/", postCategoryHandler);
 
-// categoriesRouter.delete("/:idPokemon", deletePokemonHandler)
+categoriesRouter.delete("/:idCategory", deleteCategoryHandler)
 
-// categoriesRouter.put("/:idPokemon", updatePokeHandler)
+// categoriesRouter.put("/:idCategory", updateCategoryHandler)
 
 module.exports = {
     categoriesRouter
