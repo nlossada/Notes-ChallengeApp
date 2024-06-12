@@ -1,0 +1,67 @@
+.formNote {
+    background-color: palegoldenrod;
+    width: 400px;
+    height: 500px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 15px 15px goldenrod;
+
+}
+
+
+
+.title {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+
+    width: 370px;
+    height: 30px;
+    border-bottom: 1px solid goldenrod;
+    line-height: normal;
+    font-weight: 200;
+    font-size: 25px;
+    margin: 3px 0px;
+    font-weight: 600;
+}
+
+.title:focus {
+
+    border-bottom: 2px solid gold;
+}
+
+.text {
+    border: none;
+    outline: none;
+    background: none;
+    /* padding: 20px; */
+    margin: 0;
+    background-color: rgb(186, 181, 134);
+    border-radius: 15px;
+
+    width: 370px;
+    height: 200px;
+    text-align: justify;
+}
+
+/* .text:focus {
+    background-color: palegoldenrod;
+} */
+
+.formNote select {
+    width: 370px;
+    height: 60px;
+
+}
+
+.formNote p {
+    margin: 2px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    color: #f5402c;
+
+}

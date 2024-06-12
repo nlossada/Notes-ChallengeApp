@@ -3,8 +3,7 @@ import { NavLink } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { getNotes } from '../../redux/actions'
 import Note from '../Note/Note'
-import { all } from 'axios'
-
+import styles from './Notes.module.css'
 
 function Notes() {
     const dispatch = useDispatch()
@@ -41,7 +40,7 @@ function Notes() {
                     to="/addNote"
                 >ADD NOTE</NavLink>
             </button>
-            <div>
+            <div className={styles.NotesContainer}>
 
                 {
                     allNotesState.map((note) =>
