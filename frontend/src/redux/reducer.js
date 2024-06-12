@@ -1,7 +1,8 @@
-import { GET_NOTES } from "./actionType"
+import { GET_CATEGORIES, GET_NOTES } from "./actionType"
 
 const initialState = {
     allNotes: [],
+    allCategories: [],
 
 }
 
@@ -12,6 +13,11 @@ const reducer = (state = initialState, action) => {
             return {
                 ...state,
                 allNotes: payload,
+            }
+        case GET_CATEGORIES:
+            return {
+                ...state,
+                allCategories: payload,
             }
 
 
