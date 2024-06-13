@@ -1,11 +1,18 @@
+.FormAddNote {
+    margin: 10px 170px;
+}
+
 .formNote {
-    background-color: palegoldenrod;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: #ecd2b2;
     width: 400px;
-    height: 500px;
-    margin: 20px;
-    padding: 20px;
+    height: 450px;
+    margin: 20px 10px;
+    padding: 10px;
     border-radius: 15px;
-    box-shadow: 0 15px 15px goldenrod;
+    box-shadow: 0 15px 15px #fbc97f;
 
 }
 
@@ -21,17 +28,12 @@
 
     width: 370px;
     height: 30px;
-    border-bottom: 1px solid goldenrod;
+    border-bottom: 2px solid rgba(85, 113, 29, 0.758);
     line-height: normal;
-    font-weight: 200;
-    font-size: 25px;
+    font-weight: 300;
+    font-size: 20px;
     margin: 3px 0px;
-    font-weight: 600;
-}
 
-.title:focus {
-
-    border-bottom: 2px solid gold;
 }
 
 .text {
@@ -40,11 +42,11 @@
     background: none;
     /* padding: 20px; */
     margin: 0;
-    background-color: rgb(186, 181, 134);
+    background-color: #ddd3c7e1;
     border-radius: 15px;
 
     width: 370px;
-    height: 200px;
+    height: 180px;
     text-align: justify;
 }
 

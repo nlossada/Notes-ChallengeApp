@@ -1,3 +1,7 @@
+.Notes {
+    margin: 10px 170px;
+}
+
 .NotesContainer {
     display: flex;
     flex-wrap: wrap;

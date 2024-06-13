@@ -74,8 +74,7 @@ function FormAddNote() {
                     text: "",
                     CategoriesId: [],
                 });
-                //vuelva a act estado para ver nombre repetidos
-                dispatch(getNotes())
+                // dispatch(getNotes())
 
             }
         } catch (error) {
@@ -87,7 +86,7 @@ function FormAddNote() {
 
 
     return (
-        <div>
+        <div className={styles.FormAddNote}>
             <h1>Add Note</h1>
             <form onSubmit={handleSubmit} className={styles.formNote} >
 
