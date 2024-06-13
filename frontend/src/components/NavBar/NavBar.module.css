@@ -14,4 +14,7 @@
 .NavBar button {
     margin: 0 15px;
     background-color: inherit;
+    font-size: 25px;
+    font-weight: 300;
+    color: rgba(85, 113, 29, 0.442);
 }

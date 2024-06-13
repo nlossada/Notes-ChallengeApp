@@ -1,14 +1,14 @@
 .Note {
-    background-color: palegoldenrod;
+    background-color: #ecd2b2;
     width: 250px;
     height: 290px;
     margin: 20px;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 15px 15px goldenrod;
+    box-shadow: 0 15px 15px #fbc97f;
 
     &:hover {
-        box-shadow: 0 15px 30px goldenrod;
+        box-shadow: 0 15px 30px #fbc97fcf;
         transform: scale(1.1);
     }
 }
@@ -16,7 +16,8 @@
 
 
 .title {
-    border-bottom: 1px solid goldenrod;
+    height: 25px;
+    border-bottom: 2px solid rgba(85, 113, 29, 0.758);
     line-height: normal;
     font-weight: 500;
     margin: 3px 0px;
@@ -25,13 +26,14 @@
 
 .text {
     height: 180px;
+    overflow: auto;
 
 }
 
 
 
 .categoriesContainer {
-    background-color: rgba(218, 165, 32, 0.504);
+    background-color: rgba(85, 113, 29, 0.442);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -52,14 +54,15 @@
     justify-content: center;
     margin: 5px;
     padding: 0px;
+
 }
 
 .buttonContainer button {
-    width: 70px;
-    height: 20px;
-    margin: 5px 2px;
+    width: 40px;
+    height: 40px;
+    margin: 5px 5px;
     padding: 2px;
-    font-size: 12px;
+    font-size: 20px;
     border: 1px solid #260101;
     border-radius: 5px;
 }

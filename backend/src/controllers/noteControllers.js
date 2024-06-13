@@ -13,7 +13,6 @@ const getNotesController = async () => {
         return allNotes;
     }
 
-    throw new Error("No notes found");
 }
 
 

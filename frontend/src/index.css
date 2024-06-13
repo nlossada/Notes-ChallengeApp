@@ -19,12 +19,14 @@ body {
   width: 100vw;
   height: 100vh;
   box-sizing: border-box;
+  background-image: url("../src/assets/fondoboho.png")
 }
 
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 3em;
+  line-height: 1;
+  font-weight: 100;
 }
 
 button {
@@ -39,7 +41,7 @@ button {
 }
 
 /* button:hover {
-  border-color: red;
+  border-color: rgb(117, 113, 113);
 } */
 
 button:focus,
@@ -55,6 +57,5 @@ a {
 }
 
 a:hover {
-  color: #747bff;
-  text-decoration: underline;
+  text-decoration: none;
 }

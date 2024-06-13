@@ -42,7 +42,7 @@ function App() {
           element={<FormAddCategory />}
         />
         <Route
-          path='/editNote'
+          path='/editNote/:id'
           element={<FormEditNote />}
         />
         <Route

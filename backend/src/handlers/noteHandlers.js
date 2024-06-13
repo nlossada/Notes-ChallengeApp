@@ -50,14 +50,14 @@ const updateNoteHandler = async (req, res) => {
         const { idNote } = req.params
         const { CategoriesId, title, text, archived } = req.body;
 
-        const noteUpdated = await updateNoteController(idNote, CategoriesId, title, text, archived)
+        const noteUpdated = await updateNoteController(idNote, title, text, archived)
         if (noteUpdated) {
             if (CategoriesId && CategoriesId.length > 0) {
                 //delete the categories to the note table instance (response controller) and add new ones
-                await noteUpdated.setTypes([])
-                await noteUpdated.addTypes(CategoriesId)
+                await noteUpdated.setCategories([])
+                await noteUpdated.addCategories(CategoriesId)
             }
-            //GET POKE -> add Types to response
+            //GET note -> add categories to response
             const noteUpdatedCategories = await getNoteByIdController(idNote)
             if (noteUpdatedCategories) return res.status(200).json(noteUpdatedCategories)
         } else {

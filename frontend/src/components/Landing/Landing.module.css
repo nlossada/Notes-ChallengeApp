@@ -1,0 +1,36 @@
+/* filename: LandingPage.module.css */
+
+.landingContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.heroText {
+
+    color: rgba(85, 113, 29, 0.442);
+
+}
+
+.ctaButton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    background-color: #fbc97f95;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.ctaButton:hover {
+    background-color: #fbc97f9c;
+}

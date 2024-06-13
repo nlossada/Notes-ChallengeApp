@@ -5,17 +5,17 @@ import styles from './NavBar.module.css'
 function NavBar() {
     return (
         <div className={styles.NavBar}>
-            <button>
+            <button >
                 <NavLink
                     to="/notes"
                     style={({ isActive }) => isActive ? { color: "gray" } : null}
-                >My Notes</NavLink>
+                >Notes</NavLink>
             </button>
-            <button>
+            <button >
                 <NavLink
                     to="/categories"
                     style={({ isActive }) => isActive ? { color: "gray" } : null}
-                >My Categories</NavLink>
+                >Categories</NavLink>
             </button>
         </div>
     )

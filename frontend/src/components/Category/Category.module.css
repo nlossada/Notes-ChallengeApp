@@ -1,8 +1,8 @@
-.FormAddCategory {
-    margin: 10px 170px;
-}
-
-.category {
+.Category {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgba(85, 113, 29, 0.442);
     padding: 10px 20px;
     border-radius: 15px;
@@ -14,10 +14,8 @@
 }
 
 
-.FormAddCategory p {
-    margin: 2px;
-    margin-bottom: 25px;
-    font-size: 15px;
-    color: #f5402c;
 
+.Category button {
+    margin-left: 5px;
+    margin-right: 2px;
 }

@@ -11,7 +11,7 @@ const getCategoriesController = async () => {
         return allCategories;
     }
 
-    throw new Error("No Categories found");
+    // throw new Error("No Categories found");
 }
 
 
