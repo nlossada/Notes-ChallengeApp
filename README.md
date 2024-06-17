@@ -1,5 +1,24 @@
 # My Notes App
 
+## Instrucciones de Uso
+
+Esta aplicación de notas te permite organizar tus pensamientos y tareas de manera eficiente. Con esta aplicación, puedes:
+
+- **Crear, editar y eliminar notas**: Gestiona tus notas de manera sencilla.
+- **Asignar categorías**: Organiza tus notas en diferentes categorías.
+- **Archivar y desarchivar notas**: Mantén tu espacio de trabajo limpio archivando las notas que no necesitas de inmediato.
+- **Gestionar categorías**: Crea nuevas categorías personalizadas o elimina las que ya no necesites.
+- **Filtrar notas**: Filtra tus notas por categorías y por su estado (activas o archivadas).
+- **Ordenar notas**: Ordena tus notas en orden cronológico de creación para facilitar su seguimiento.
+
+Con estas funcionalidades, podrás mantener tus ideas y tareas bien organizadas y accesibles.
+
+### Información Adicional
+
+Esta aplicación fue desarrollada en el marco de un challenge técnico para una vacante laboral de Full Stack Developer Junior. La aplicación fue realizada íntegramente en menos de 3 días, por lo cual aún tiene muchas funcionalidades y apariencias que mejorar.
+
+
+
 ## Requisitos para Ejecutar la Aplicación
 
 ### Frontend
