@@ -3,7 +3,7 @@ import { validateInputFormCategory } from '../../utils/validateFormCategory'
 import { useDispatch, useSelector } from 'react-redux'
 import styles from './FormAddCategory.module.css'
 import { createCategory, getCategories } from '../../redux/actions'
-
+import { BackBtn } from '../BackBtn/BackBtn'
 function FormAddCategory() {
     const dispatch = useDispatch()
 
@@ -81,6 +81,7 @@ function FormAddCategory() {
                     disabled={Object.values(errors).some(error => error && error.length > 0)}
                 >ADD CATEGORY!</button>
             </form>
+            <BackBtn path="/categories" />
         </div>
     )
 }

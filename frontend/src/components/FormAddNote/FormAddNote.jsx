@@ -3,6 +3,7 @@ import { validateInputFormNote, validateSelectFormNote } from '../../utils/valid
 import { useDispatch, useSelector } from 'react-redux';
 import { createNote, getCategories, getNotes } from '../../redux/actions';
 import styles from './FormAddNote.module.css'
+import { BackBtn } from '../BackBtn/BackBtn';
 
 function FormAddNote() {
     const dispatch = useDispatch()
@@ -133,6 +134,7 @@ function FormAddNote() {
 
 
             </form>
+            <BackBtn path="/notes" />
         </div>
     )
 }
